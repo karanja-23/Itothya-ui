@@ -67,7 +67,7 @@
 }
 #content-image{
     width: 90%;
-    background-image: url("./Assets/cover.jpg");
+    background-image: url("../Assets/cover.jpg");
     background-size: cover;
     background-position: center;
     height: 50vh;
