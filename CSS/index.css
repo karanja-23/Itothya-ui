@@ -407,7 +407,7 @@ iframe{
     #logo{
         margin: 4px;
     }
-    #logo span{        
+    .logo_text{        
         display: none;
     }
   
