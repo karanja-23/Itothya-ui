@@ -76,7 +76,7 @@
     align-items: center;
     position: relative;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 0px;
 }   
 #title{
     color: rgb(34, 70, 100);
@@ -295,11 +295,10 @@ iframe{
     position: absolute;
     font-size: xx-large;
     color: rgb(34, 70, 100);
-    top: 15px;
-    margin-top: 10px;
-    right: 10px;
+    top: 2px;    
+    right: 2px;
     z-index: 2;   
-    padding: 3px 10px;
+    padding: 5px 5px;
     display: none;
 }
 #mobile_nav{
