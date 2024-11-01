@@ -1,0 +1,409 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+}
+#my_navBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+   
+}
+#menu-items{
+    align-self: flex-end;   
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+}
+#menu-items a{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(34, 70, 100);
+    
+}
+#menu-items a:hover, #menu-items a:active{
+    background-color: rgb(75, 10, 75);
+    color: white;
+}
+
+#logo img{
+    width: 40px;
+    height: 50px;
+    margin: auto;
+    
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    color: rgb(34, 70, 100);
+}
+#logo span{
+    font-size: x-small;
+    
+}
+#login span{
+    font-size: small;
+    font-weight: 900;
+    color: rgb(34, 70, 100);
+    margin-top: 4px;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+#login img{
+    height: 40px;  
+    width: 40px;
+}
+#content-image{
+    width: 90%;
+    background-image: url("/Assets/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}   
+#title{
+    color: rgb(34, 70, 100);
+    font-size: 60px;
+    line-height: 0.7em;
+}
+#my_display{
+    text-align: start;   
+}
+#subtitle{
+    font-weight:400;
+    font-size: x-large;
+    line-height: 0.5em;
+}
+#claim{
+    width: 100%; 
+    display: block;
+    text-align: center;
+    line-height: 0.7em;
+}
+#button{
+    position: absolute;
+    bottom: 25px;
+    padding: 8px 55px;
+    color: white;
+    background-color: rgb(34, 70, 100);
+    font-weight: 900;
+    font-size: large;  
+    border: none;  
+}
+#brands{
+    display: flex;
+    bottom: 10px;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+}
+#brands img{
+    height: 100px;
+    margin-top: 20px;    
+    margin: 10px;
+}
+
+
+.brandsh3{
+   text-align: center;
+   font-weight: bold;
+   text-decoration: underline;
+   color: rgb(34, 70, 100);
+   margin-top: 25px;
+   margin-bottom: 21px;
+}
+#about_us p, #about_us h4{
+    width: 85%;
+    margin: auto;
+    font-weight: 500;
+    color: rgb(34, 70, 100);
+    letter-spacing: 0.6px;
+}
+#mission{
+    position: absolute;
+    top: 46px;
+    display: flex;
+    flex-direction: column;  
+    text-align: left;  
+    text-align: center;
+    color: rgb(221, 154, 29)
+}
+#mission p{
+    font-weight: 700;    
+    line-height: 1;
+    font-size: small;    
+}
+#mission span{
+    font-weight: 900;
+    font-size: x-large;
+    color: rgb(75, 10, 75);
+}
+#values{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    justify-content: space-between;
+    height: 50vh;
+}
+#who_we_are{
+    width: 50%;
+    position: relative;
+}
+#our_values{
+    width: 50%;
+    position: relative;
+}
+#values {
+    width: 50%;
+}
+#who_we_are img{
+    width: 100%;
+}
+#about{
+    display: flex;
+    position: relative;
+    width: 100;
+    justify-content: space-evenly;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+#who_we_are{
+    width: 40%;
+    min-height: 30vh;
+    border-radius:12px
+}
+#our_values{
+    width: 40%;
+    min-height: 30vh;
+    border-radius:12px;
+   
+
+}
+#our_values li{
+    list-style: none;
+    line-height: 1.9em;
+}
+.who_we_are_h5{
+    text-align: center;
+    color: rgb(34, 70, 100);
+    margin-bottom: 20px;
+}
+.child{
+    font-size: 0.9rem;
+    padding: 20px;
+    background-color: rgb(221, 154, 29);
+    color: rgb(75, 10, 75);
+    line-height: 1.5em;
+    margin-top: 20px;
+    box-shadow: 1px 5px 2px 5px rgb(75, 10, 75);
+    
+}
+#services{   
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;    
+    margin-bottom: 120px;
+}.accordion-text strong{
+    color: rgb(75, 10, 75);
+    font-weight: 700;
+}
+.accordion-text{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+.accordion-textli{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: medium;   
+}
+.accordion-header{
+    font-family: "Noto Sans", sans-serif;
+    border: 1px solid black;
+}
+.accordion-item{
+    margin-bottom: 30px;
+}
+.accordion-button.collapsed{
+    color: rgb(75, 10, 75);
+}
+footer{
+    background-color: rgb(34, 70, 100);
+    color: white;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}#contact span{
+    text-align: center;
+}
+
+#contact p, #location p,#socials p{
+    font-size: small;
+    line-height: 0.9em;
+}#location p, #socials p{
+    font-size: small;
+    line-height: 0.9em;
+    text-align: center;
+}
+#copyright{
+    position: absolute;
+    bottom: -7px;
+    font-size: small;
+}
+#location{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+        
+}
+iframe{
+    height: 80px;
+    width: 200px;
+    align-self: center;
+}
+.fa{
+    margin-right: 10px;
+    font-size: medium;
+}
+.fa-bars{
+    position: absolute;
+    font-size: xx-large;
+    color: rgb(34, 70, 100);
+    top: 15px;
+    margin-top: 10px;
+    right: 10px;
+    z-index: 2;   
+    padding: 3px 10px;
+    display: none;
+}
+#mobile_nav{
+    
+    padding-top: 20px;
+    width: 60vw;
+    height: 99vh;
+    background-color: rgb(34, 70, 100);
+    position: fixed;
+    top: 1px;
+    right: 1px;
+    z-index: 2;
+    display: none;
+}
+#mobile_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    padding: 20px;    
+    text-align: center;
+}
+#mobile_menu a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#mobile_menu a:hover{
+    background-color: rgb(221, 154, 29);
+    color: rgb(75, 10, 75);
+}
+.fa-window-close{
+    position: absolute;
+    font-size: x-large;
+    color: white;
+    top: -4px;
+    margin-top: 10px;
+    right: 1px;
+    z-index: 2;
+}
+#login_button{
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 8px;
+    background-color: rgb(221, 154, 29);
+    color: rgb(34, 70, 100);
+    font-size: medium;
+    border: none;
+}
+#login_button:hover{
+    background-color: rgb(75, 10, 75);
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px; /* or any other value you prefer */
+      }
+    #menu-items{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    #login{
+        display: none;
+    }
+    footer{
+        text-align: center;
+    }
+    #contact p{
+        text-align: left;
+    }
+    #about{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #who_we_are, #our_values{
+        font-size: 0.7em;
+        width: 90vw;
+        margin: auto;
+        min-height: 20vh;
+        
+    }
+    #content-image i{
+        font-size: 0.7em;        
+    }
+    #content-image img{
+        height: 30%;
+    }
+    #content-image span{
+        font-size: 1.3em;
+    }
+    #subtitle{
+        font-size: 0.1em;
+        font-weight: 300;
+    }
+    #button{
+        width: fit-content;
+        font-size: 16px;
+        border: none;
+    }
+    #brands img{
+        height: 50px;
+    }
+}
